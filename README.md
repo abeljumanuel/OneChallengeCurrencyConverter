@@ -1,5 +1,11 @@
-# Currency Converter Challenge Backend JAVA </em>
-![CurrencyConversorImageLogo.png](img%2FCurrencyConversorImageLogo.png)
+<div align="center">
+  <h1 align="center">
+    Currency Converter Challenge Backend JAVA </em>
+    <br>
+    <br>
+    <img src="img/CurrencyConversorImageLogo.png" alt="drawing" width="200" align=auto/>
+  </h1>
+</div>
 
 ![Badge en Desarollo](https://img.shields.io/badge/STATUS-EN%20DESAROLLO-green)
 
@@ -19,7 +25,7 @@ Integración con una API externa que proporcione datos actualizados de los tipos
 - _Contar con Api Key para servicio Exchange Rate API_
 
 ## 📁 Acceso al proyecto
-_Puede descargar el proyecto y ejecutarlo directamente desde la clase principal._
+_Puede descargar el proyecto y ejecutarlo directamente desde la clase principal (src/com/alura/currencyconversor/CurrencyConversor.java)._
 
 ## Construido con 🛠️
 
