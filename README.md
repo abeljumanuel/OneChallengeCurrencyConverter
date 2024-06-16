@@ -1,4 +1,5 @@
 # Currency Converter Challenge Backend JAVA </em>
+![CurrencyConversorImageLogo.png](img%2FCurrencyConversorImageLogo.png)
 
 ![Badge en Desarollo](https://img.shields.io/badge/STATUS-EN%20DESAROLLO-green)
 
@@ -9,6 +10,9 @@ Integración con una API externa que proporcione datos actualizados de los tipos
 - `Funcionalidad 1`: Gestionar la conversion de divisas entre Dolar y tres monedas latinoamericanas (Peso Argentino, Real Brasileño y Peso Colombiano)
 - `Funcionalidad 2`: Implementar API https://www.exchangerate-api.com/docs/overview
 - `Funcionalidad 3`: Demostrar la implementación de conocimientos en Java
+
+## Como usar la aplicación
+![HowToUseIt.gif](img%2FHowToUseIt.gif)
 
 ### Pre-requisitos 📋
 - _Contar con Java 17_
