@@ -4,7 +4,7 @@
 
 Integración con una API externa que proporcione datos actualizados de los tipos de cambio entre las diferentes divisas.
 
-##::hammer:Funcionalidades del proyecto
+## 🔧 Funcionalidades del proyecto
 
 - `Funcionalidad 1`: Gestionar la conversion de divisas entre Dolar y tres monedas latinoamericanas (Peso Argentino, Real Brasileño y Peso Colombiano)
 - `Funcionalidad 2`: Implementar API https://www.exchangerate-api.com/docs/overview
