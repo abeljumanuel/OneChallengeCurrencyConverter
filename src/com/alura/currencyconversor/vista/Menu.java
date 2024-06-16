@@ -1,5 +1,6 @@
 package com.alura.currencyconversor.vista;
 
+import com.alura.currencyconversor.excepciones.ErrorServicioException;
 import com.alura.currencyconversor.servicio.Conversion;
 
 import java.util.Scanner;
@@ -40,13 +41,21 @@ public class Menu {
     }
 
     public static void disponibilidadApp(){
-        int opcionCambioMoneda = 0;
+        int opcionCambioMoneda;
         do {
             getMenu();
             opcionCambioMoneda = selectorConversion();
-            if (opcionCambioMoneda != 7) {
-                long valorCambiar = Menu.definaValor();
-                gestionaConversion(opcionCambioMoneda, valorCambiar);
+            try {
+                if (opcionCambioMoneda > 0 && opcionCambioMoneda < 8 ) {
+                    if (opcionCambioMoneda != 7) {
+                        long valorCambiar = Menu.definaValor();
+                        gestionaConversion(opcionCambioMoneda, valorCambiar);
+                    }
+                } else {
+                    throw new ErrorServicioException(opcionCambioMoneda + " no es una opción valida, Seleccione nuevamente por favor!");
+                }
+            } catch (ErrorServicioException e) {
+                System.err.println("Error: " + e.getMessage());
             }
         } while (opcionCambioMoneda != 7);
     }
